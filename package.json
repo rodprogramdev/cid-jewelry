@@ -1,0 +1,18 @@
+{
+  "name": "cid-jewelry",
+  "version": "1.0.0",
+  "description": "Jewelry Store Template",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "keywords": [
+    "Jewelry",
+    "Store"
+  ],
+  "author": "Rodrigo Bonzerr S. Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

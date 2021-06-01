@@ -1,0 +1,191 @@
+/*
+Color Variables
+$color-primary: #81d8d0;
+Complementary
+D9828B
+Analagous
+ 82B6D9 82D9A5 
+ 82b6d8 82d8a4
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Libre Baskerville', serif; }
+
+/*****************************************HEADER********************************************************/
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/pexels-pixabay-266621.jpg");
+  background-size: cover; }
+
+nav {
+  background-color: #fff;
+  height: 12vh;
+  border-left: 1rem solid #74dacf; }
+
+.header__brand {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  font-size: 2rem; }
+
+.header__nav {
+  font-size: 1.5rem;
+  position: fixed;
+  top: 2%;
+  display: inline-block;
+  width: 50%;
+  left: 66%;
+  transform: translate(-10%);
+  z-index: 1; }
+
+.header__nav--ul {
+  list-style-type: none; }
+
+.header__nav--ul li {
+  float: left;
+  padding: 1rem; }
+
+a {
+  text-decoration: none; }
+
+a:link {
+  color: #000;
+  cursor: pointer; }
+
+a:visited {
+  color: #629eec; }
+
+a:hover {
+  color: #74dacf;
+  cursor: pointer; }
+
+.header__button {
+  position: absolute;
+  top: 4%;
+  display: inline-block;
+  width: 10%;
+  left: 60%; }
+
+.toggle-btn {
+  background-color: transparent;
+  /* Green */
+  border: 2px solid #74dacf;
+  color: #000;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%; }
+
+.header__heading {
+  margin-top: 25rem;
+  width: 100%;
+  display: inline-block;
+  text-align: center; }
+
+.header__heading h1 {
+  color: #fff;
+  font-size: 4.5rem; }
+
+/******************PRODUCT RINGS*********************/
+.rings {
+  height: 100vh;
+  text-align: center;
+  padding-top: 5%;
+  border-right: 1rem solid #74dacf; }
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  width: 100%; }
+
+.card__course--1 {
+  background-color: red;
+  border-radius: .8rem;
+  /* 5px;*/
+  border: 1px solid #816161;
+  display: inline-block;
+  background-color: white;
+  margin: 7rem 2rem;
+  height: 35rem;
+  width: 28rem;
+  display: inline-block;
+  position: relative; }
+
+.card__course--1:hover {
+  box-shadow: 0px 8px 5px black; }
+
+.card__course--heading {
+  height: 20%;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.card__banner {
+  position: absolute;
+  top: 0%;
+  height: 60%;
+  width: 100%;
+  border-top-right-radius: .8rem; }
+
+.card__img--1 {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: .8rem;
+  border-top-left-radius: .8rem; }
+
+.card__banner--link {
+  height: 100%;
+  width: 100%; }
+
+p {
+  font-size: 1.5rem; }
+
+.ring-sample {
+  height: 70vh;
+  background-image: url("../images/pexels-glauber-torquato-2219195.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.necklace-sample {
+  height: 70vh;
+  background-image: url("../images/pexels-engin-akyurt-1458867.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.necklaces {
+  height: 100vh;
+  text-align: center;
+  padding-top: 5%;
+  border-left: 1rem solid #74dacf; }
+
+.earings {
+  height: 100vh;
+  text-align: center;
+  padding-top: 5%;
+  border-bottom: .1rem solid #000; }
+
+/********************FOOTER SECTION*******************************/
+.footer {
+  height: 45vh;
+  padding: 2.5rem; }
+
+.footer__List {
+  list-style-type: none;
+  float: left; }
+
+.footer__li {
+  float: right;
+  clear: both;
+  padding: 1.5rem; }
